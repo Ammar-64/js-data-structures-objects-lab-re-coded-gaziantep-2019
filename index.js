@@ -8,4 +8,5 @@ function updateDriverWithKeyAndValue(driver, key, value) {
 function updateDriverWithKeyAndValue(obj, key, value){
   driver.name = 'sam';
   driver.address = '12 Broadway';
+  return driver;
 }
